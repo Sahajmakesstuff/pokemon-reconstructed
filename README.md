@@ -62,5 +62,5 @@ If no then with 50% chance it will use that status move
 
 MOVE POWER:
 
-Damage = (((((((2*lvl)/5)+2)*base power of move)/50)+2)*STAB*random)rounded up
+Damage = (((((((2*lvl)/5)+2)*base power of move* ATT of attacker / DEF of defender)/50)+2)*STAB*random)rounded up
 random is a value between 0.8 and 1
