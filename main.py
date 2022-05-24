@@ -4,6 +4,7 @@ import math
 from classes import *
 from types import *
 
+
 #initializing the 3 pokemon
 firey= pokemon("fire_mon")
 firey.print_everything()

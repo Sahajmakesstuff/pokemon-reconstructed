@@ -32,14 +32,3 @@ strengths = {
         []
     ]
 }
-
-# attackingType = "fire"
-# defendingType = "water"
-
-# if defendingType in sw[attackingType][0]:
-#     # more damage
-# elif defendingType in sw[attackingType][1]:
-#     #less damage
-# else:
-#     #neutral damage
-    

@@ -114,6 +114,7 @@ class pokemon:
                 ["Discharge","electric",80]
             ]
         
+        
         elif self.name=="normal_mon":
             self.base_hp=90
             self.base_att=90
