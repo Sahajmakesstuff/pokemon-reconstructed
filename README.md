@@ -62,5 +62,12 @@ If no then with 50% chance it will use that status move
 
 MOVE POWER:
 
-Damage = (((((((2*lvl)/5)+2)*base power of move* ATT of attacker / DEF of defender)/50)+2)*STAB*random)rounded up
+Damage = (((((((2*lvl)/5)+2)*base power of move* ATT of attacker / DEF of defender)/50)+2)*STAB*random* Type * Crit)rounded up
+
 random is a value between 0.8 and 1
+
+If attacking type is good against defending type, Type=1.5
+if attacking type is bad against defending type, Type=0.5
+If attacking type is neutral to defending type, Type=1
+
+With a 6% chance a move could be a critical hit, dealing 1.5 damage, Crit=1.5, in other cases, Crit=1
