@@ -27,7 +27,6 @@ IV's:
 These are a range of stats hidden from the player about each specific pokemon's each stat
 They range from 0(worst)-31(best)
 
-
 NATURE:
 There are 7 Natures:
 1. +Att -Def ---> Lonely
