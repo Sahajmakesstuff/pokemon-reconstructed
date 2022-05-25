@@ -1,3 +1,4 @@
+#Type Chart
 strengths = {
     "fire": [
         ["grass","steel","ice"],
